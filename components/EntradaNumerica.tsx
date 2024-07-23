@@ -15,8 +15,8 @@ export default function EntradaNumerica(props: EntradaNumericaProps){
         }
     }
     const inc = ()=> {
-        if(props.value <= 26){
-            props.onChange(props.value + 1)
+        if(props.value <= 9){
+            props.onChange(props.value + 1);
         }
     }
 

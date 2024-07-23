@@ -9,3 +9,24 @@
 .formulario > div{
     display: flex;
 }
+
+@media (max-width: 768px) {
+    .formulario {
+      height: auto;
+    }
+  
+    .formulario > div {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .formulario > div > div {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .formulario > div:last-child {
+      margin-top: 20px;
+    }
+  }
